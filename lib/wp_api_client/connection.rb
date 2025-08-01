@@ -1,8 +1,8 @@
 require 'faraday'
-require 'faraday_middleware'
+require 'faraday/oauth1'
 require 'faraday-http-cache'
 require 'typhoeus'
-require 'typhoeus/adapters/faraday'
+require 'faraday/typhoeus'
 
 module WpApiClient
   class Connection
@@ -16,11 +16,11 @@ module WpApiClient
       @conn = Faraday.new(url: configuration.endpoint) do |faraday|
 
         if configuration.oauth_credentials
-          faraday.use FaradayMiddleware::OAuth, configuration.oauth_credentials
+          faraday.use Faraday::OAuth1::Request, "header", configuration.oauth_credentials
         end
 
         if configuration.basic_auth
-          faraday.basic_auth(configuration.basic_auth[:username], configuration.basic_auth[:password])
+          faraday.request :authorization, :basic, configuration.basic_auth[:username], configuration.basic_auth[:password]
         end
 
         if configuration.debug

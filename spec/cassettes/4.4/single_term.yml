@@ -33,7 +33,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"id":1,"count":101,"description":"","link":"http:\/\/localhost:8080\/category\/uncategorized\/","name":"Uncategorized","slug":"uncategorized","taxonomy":"category","parent":0,"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories\/1"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/category"}],"http:\/\/api.w.org\/v2\/post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?categories=1"}]}}'
-    http_version: 
+    http_version:
   recorded_at: Mon, 18 Apr 2016 18:46:47 GMT
 - request:
     method: get
@@ -105,7 +105,7 @@ http_interactions:
         91"},"content":{"rendered":""},"excerpt":{"rendered":""},"author":0,"featured_media":0,"comment_status":"open","ping_status":"open","sticky":false,"format":"standard","categories":[1],"tags":[],"custom_taxonomy":[],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/93"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/post"}],"replies":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/comments?post=93"}],"version-history":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/93\/revisions"}],"https:\/\/api.w.org\/attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=93"}],"https:\/\/api.w.org\/term":[{"taxonomy":"category","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories?post=93"},{"taxonomy":"post_tag","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/tags?post=93"},{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=93"}],"https:\/\/api.w.org\/meta":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/93\/meta"}]},"_embedded":{"https:\/\/api.w.org\/term":[[{"id":1,"link":"http:\/\/localhost:8080\/category\/uncategorized\/","name":"Uncategorized","slug":"uncategorized","taxonomy":"category","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories\/1"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/category"}],"http:\/\/api.w.org\/v2\/post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?categories=1"}]}}],[],[]],"https:\/\/api.w.org\/meta":[{"code":"rest_invalid_param","message":"Invalid
         parameter(s): context (context is not one of edit)","data":{"status":400,"params":["context
         (context is not one of edit)"]}}]}}]'
-    http_version: 
+    http_version:
   recorded_at: Mon, 18 Apr 2016 18:46:47 GMT
 - request:
     method: get
@@ -152,7 +152,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"name":"Categories","slug":"category","description":"","types":["post"],"hierarchical":true,"_links":{"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies"}],"https:\/\/api.w.org\/items":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}]}}'
-    http_version: 
+    http_version:
   recorded_at: Mon, 18 Apr 2016 18:46:48 GMT
 - request:
     method: get
@@ -199,7 +199,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"id":2,"count":20,"description":"","link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"http:\/\/api.w.org\/v2\/post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}]}}'
-    http_version: 
+    http_version:
   recorded_at: Mon, 18 Apr 2016 18:46:48 GMT
 - request:
     method: get
@@ -263,7 +263,7 @@ http_interactions:
         Post Type 92"},"content":{"rendered":""},"custom_taxonomy":[],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type\/195"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/custom_post_type"}],"https:\/\/api.w.org\/attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=195"}],"https:\/\/api.w.org\/term":[{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=195"}]}},{"id":194,"date":"2016-03-30T00:20:03","date_gmt":"2016-03-30T00:20:03","guid":{"rendered":"http:\/\/localhost:8080\/custom_post_type\/post-91\/"},"modified":"2016-03-30T00:20:03","modified_gmt":"2016-03-30T00:20:03","slug":"post-91","type":"custom_post_type","link":"http:\/\/localhost:8080\/custom_post_type\/post-91\/","title":{"rendered":"Custom
         Post Type 91"},"content":{"rendered":""},"custom_taxonomy":[],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type\/194"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/custom_post_type"}],"https:\/\/api.w.org\/attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=194"}],"https:\/\/api.w.org\/term":[{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=194"}]}},{"id":193,"date":"2016-03-30T00:20:03","date_gmt":"2016-03-30T00:20:03","guid":{"rendered":"http:\/\/localhost:8080\/custom_post_type\/post-90\/"},"modified":"2016-03-30T00:20:03","modified_gmt":"2016-03-30T00:20:03","slug":"post-90","type":"custom_post_type","link":"http:\/\/localhost:8080\/custom_post_type\/post-90\/","title":{"rendered":"Custom
         Post Type 90"},"content":{"rendered":""},"custom_taxonomy":[],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type\/193"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/custom_post_type"}],"https:\/\/api.w.org\/attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=193"}],"https:\/\/api.w.org\/term":[{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=193"}]}}]'
-    http_version: 
+    http_version:
   recorded_at: Mon, 18 Apr 2016 18:46:48 GMT
 - request:
     method: get
@@ -347,7 +347,7 @@ http_interactions:
         91"},"content":{"rendered":""},"excerpt":{"rendered":""},"author":0,"featured_media":0,"comment_status":"open","ping_status":"open","sticky":false,"format":"standard","categories":[1],"tags":[],"custom_taxonomy":[],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/93"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/post"}],"replies":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/comments?post=93"}],"version-history":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/93\/revisions"}],"https:\/\/api.w.org\/attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=93"}],"https:\/\/api.w.org\/term":[{"taxonomy":"category","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories?post=93"},{"taxonomy":"post_tag","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/tags?post=93"},{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=93"}],"https:\/\/api.w.org\/meta":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/93\/meta"}]},"_embedded":{"https:\/\/api.w.org\/term":[[{"id":1,"link":"http:\/\/localhost:8080\/category\/uncategorized\/","name":"Uncategorized","slug":"uncategorized","taxonomy":"category","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories\/1"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/category"}],"http:\/\/api.w.org\/v2\/post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?categories=1"}]}}],[],[]],"https:\/\/api.w.org\/meta":[{"code":"rest_invalid_param","message":"Invalid
         parameter(s): context (context is not one of edit)","data":{"status":400,"params":["context
         (context is not one of edit)"]}}]}}]'
-    http_version: 
+    http_version:
   recorded_at: Mon, 18 Apr 2016 18:46:49 GMT
 - request:
     method: get
@@ -398,7 +398,7 @@ http_interactions:
         Post Type 77"},"content":{"rendered":""},"custom_taxonomy":[2],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type\/180"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/custom_post_type"}],"wp:attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=180"}],"wp:term":[{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=180"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]},"_embedded":{"wp:term":[[{"id":2,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]]}},{"id":190,"date":"2016-03-30T00:20:03","date_gmt":"2016-03-30T00:20:03","guid":{"rendered":"http:\/\/localhost:8080\/custom_post_type\/post-87\/"},"modified":"2016-03-30T00:20:03","modified_gmt":"2016-03-30T00:20:03","slug":"post-87","type":"custom_post_type","link":"http:\/\/localhost:8080\/custom_post_type\/post-87\/","title":{"rendered":"Custom
         Post Type 87"},"content":{"rendered":""},"custom_taxonomy":[2,3],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type\/190"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/custom_post_type"}],"wp:attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=190"}],"wp:term":[{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=190"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]},"_embedded":{"wp:term":[[{"id":2,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":3,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_two\/","name":"term_two","slug":"term_two","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/3"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=3"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=3"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]]}},{"id":200,"date":"2016-03-30T00:20:03","date_gmt":"2016-03-30T00:20:03","guid":{"rendered":"http:\/\/localhost:8080\/custom_post_type\/post-97\/"},"modified":"2016-03-30T00:20:03","modified_gmt":"2016-03-30T00:20:03","slug":"post-97","type":"custom_post_type","link":"http:\/\/localhost:8080\/custom_post_type\/post-97\/","title":{"rendered":"Custom
         Post Type 97"},"content":{"rendered":""},"custom_taxonomy":[2],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type\/200"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/custom_post_type"}],"wp:attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=200"}],"wp:term":[{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=200"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]},"_embedded":{"wp:term":[[{"id":2,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]]}}]'
-    http_version: 
+    http_version:
   recorded_at: Fri, 22 Jul 2016 13:12:05 GMT
 - request:
     method: get
@@ -449,6 +449,90 @@ http_interactions:
         78"},"content":{"rendered":""},"excerpt":{"rendered":""},"author":0,"featured_media":0,"comment_status":"open","ping_status":"open","sticky":false,"format":"standard","categories":[1],"tags":[],"custom_taxonomy":[2],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/80"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/post"}],"replies":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/comments?post=80"}],"version-history":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/80\/revisions"}],"wp:attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=80"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories?post=80"},{"taxonomy":"post_tag","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/tags?post=80"},{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=80"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]},"_embedded":{"wp:term":[[{"id":1,"link":"http:\/\/localhost:8080\/category\/uncategorized\/","name":"Uncategorized","slug":"uncategorized","taxonomy":"category","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories\/1"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/category"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?categories=1"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}],[],[{"id":2,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]]}},{"id":90,"date":"2016-03-30T00:20:02","date_gmt":"2016-03-30T00:20:02","guid":{"rendered":"http:\/\/localhost:8080\/%post%\/"},"modified":"2016-03-30T00:20:02","modified_gmt":"2016-03-30T00:20:02","slug":"post-88","type":"post","link":"http:\/\/localhost:8080\/%post%\/","title":{"rendered":"Post
         88"},"content":{"rendered":""},"excerpt":{"rendered":""},"author":0,"featured_media":0,"comment_status":"open","ping_status":"open","sticky":false,"format":"standard","categories":[1],"tags":[],"custom_taxonomy":[2,3],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/90"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/post"}],"replies":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/comments?post=90"}],"version-history":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/90\/revisions"}],"wp:attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=90"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories?post=90"},{"taxonomy":"post_tag","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/tags?post=90"},{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=90"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]},"_embedded":{"wp:term":[[{"id":1,"link":"http:\/\/localhost:8080\/category\/uncategorized\/","name":"Uncategorized","slug":"uncategorized","taxonomy":"category","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories\/1"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/category"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?categories=1"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}],[],[{"id":2,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":3,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_two\/","name":"term_two","slug":"term_two","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/3"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=3"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=3"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]]}},{"id":100,"date":"2016-03-30T00:20:02","date_gmt":"2016-03-30T00:20:02","guid":{"rendered":"http:\/\/localhost:8080\/%post%\/"},"modified":"2016-03-30T00:20:02","modified_gmt":"2016-03-30T00:20:02","slug":"post-98","type":"post","link":"http:\/\/localhost:8080\/%post%\/","title":{"rendered":"Post
         98"},"content":{"rendered":""},"excerpt":{"rendered":""},"author":0,"featured_media":0,"comment_status":"open","ping_status":"open","sticky":false,"format":"standard","categories":[1],"tags":[],"custom_taxonomy":[2],"_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/100"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/types\/post"}],"replies":[{"embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/comments?post=100"}],"version-history":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts\/100\/revisions"}],"wp:attachment":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/media?parent=100"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories?post=100"},{"taxonomy":"post_tag","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/tags?post=100"},{"taxonomy":"custom_taxonomy","embeddable":true,"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy?post=100"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]},"_embedded":{"wp:term":[[{"id":1,"link":"http:\/\/localhost:8080\/category\/uncategorized\/","name":"Uncategorized","slug":"uncategorized","taxonomy":"category","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories\/1"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/categories"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/category"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?categories=1"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}],[],[{"id":2,"link":"http:\/\/localhost:8080\/custom_taxonomy\/term_one\/","name":"term_one","slug":"term_one","taxonomy":"custom_taxonomy","_links":{"self":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy\/2"}],"collection":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_taxonomy"}],"about":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/taxonomies\/custom_taxonomy"}],"wp:post_type":[{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/custom_post_type?custom_taxonomy=2"},{"href":"http:\/\/localhost:8080\/wp-json\/wp\/v2\/posts?custom_taxonomy=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]]}}]'
-    http_version: 
+    http_version:
   recorded_at: Fri, 22 Jul 2016 13:12:06 GMT
+- request:
+    method: get
+    uri: http://localhost:8080/wp-json/wp/v2/categories/1?_embed=true&oauth_consumer_key=DJyagPXmjMxO&oauth_nonce=cee0d51d2f0f943fde5cf193293dda00&oauth_signature=z4NZJBZ/VIIzk3JVoCyZUe%2B8q5U=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1754055287&oauth_version=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0
+      Expect:
+      - ''
+  response:
+    status:
+      code: 0
+      message:
+    headers: {}
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version:
+  recorded_at: Fri, 01 Aug 2025 13:34:47 GMT
+- request:
+    method: get
+    uri: http://localhost:8080/wp-json/wp/v2/categories/1?_embed=true&oauth_consumer_key=DJyagPXmjMxO&oauth_nonce=1d3d498699bb315b94e90fc6947749d2&oauth_signature=BCi4uWIJyOhF31C/Z0m8xG/FodM=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1754055287&oauth_version=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0
+      Expect:
+      - ''
+  response:
+    status:
+      code: 0
+      message:
+    headers: {}
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version:
+  recorded_at: Fri, 01 Aug 2025 13:34:47 GMT
+- request:
+    method: get
+    uri: http://localhost:8080/wp-json/wp/v2/categories/1?_embed=true&oauth_consumer_key=DJyagPXmjMxO&oauth_nonce=bd198191bd1ab32600d713a14061a5ae&oauth_signature=qNy6fxH9PcHV4pYw9e4aE6Rp%2BMg=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1754055287&oauth_version=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0
+      Expect:
+      - ''
+  response:
+    status:
+      code: 0
+      message:
+    headers: {}
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version:
+  recorded_at: Fri, 01 Aug 2025 13:34:47 GMT
+- request:
+    method: get
+    uri: http://localhost:8080/wp-json/wp/v2/custom_taxonomy/2?_embed=true&oauth_consumer_key=DJyagPXmjMxO&oauth_nonce=6b6cef6f1b146426561ae9396569c70f&oauth_signature=qPk5YZSw7j0WlNjzuurX5OzHe/E=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1754055287&oauth_version=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0
+      Expect:
+      - ''
+  response:
+    status:
+      code: 0
+      message:
+    headers: {}
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version:
+  recorded_at: Fri, 01 Aug 2025 13:34:47 GMT
 recorded_with: VCR 3.0.3
